@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[25,)"
+issueTrackerURL="https://github.com/minecraftabnormals/Better-Insomnia/issues"
+
+[[mods]] #mandatory
+    modId="better_insomnia"
+    version="${file.jarVersion}"
+    displayName="Better Insomnia"
+    displayURL=""
+    # logoFile="examplemod.png"
+    authors="ExpensiveKoala, Cameron"
+    description='''
+    A mod that improves upon the insomnia mechanic introduced in 1.13.
+    '''
+    [[dependencies.better_insomnia]] #optional
+        modId="forge" #mandatory
+        mandatory=true #mandatory
+        versionRange="[25,)" #mandatory
+        ordering="NONE"
+        side="BOTH"
