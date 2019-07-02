@@ -1,6 +1,6 @@
-package com.teamabnormals.better_insomnia.common.potions;
+package com.teamabnormals.betterinsomnia.common.potions;
 
-import com.teamabnormals.better_insomnia.core.util.Reference;
+import com.teamabnormals.betterinsomnia.core.util.Reference;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.potion.PotionInstant;

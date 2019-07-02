@@ -1,8 +1,8 @@
-package com.teamabnormals.better_insomnia.core.registry;
+package com.teamabnormals.betterinsomnia.core.registry;
 
-import com.teamabnormals.better_insomnia.common.potions.PotionInsomnia;
-import com.teamabnormals.better_insomnia.common.potions.PotionRestfulness;
-import com.teamabnormals.better_insomnia.core.util.Reference;
+import com.teamabnormals.betterinsomnia.common.potions.PotionInsomnia;
+import com.teamabnormals.betterinsomnia.common.potions.PotionRestfulness;
+import com.teamabnormals.betterinsomnia.core.util.Reference;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.PotionType;
@@ -12,6 +12,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 
+@SuppressWarnings("WeakerAccess")
 @Mod.EventBusSubscriber(modid = Reference.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BIPotions {
 

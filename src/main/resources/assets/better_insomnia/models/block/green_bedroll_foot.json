@@ -1,6 +1,6 @@
-{   "parent": "betterinsomnia:block/bedroll_foot",
+{   "parent": "better_insomnia:block/bedroll_foot",
     "textures": {
-        "particle": "betterinsomnia:blocks/green_bedroll",
-        "bedroll": "betterinsomnia:blocks/green_bedroll"
+        "particle": "better_insomnia:blocks/green_bedroll",
+        "bedroll": "better_insomnia:blocks/green_bedroll"
     }
 }

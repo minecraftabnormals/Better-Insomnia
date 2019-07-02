@@ -1,7 +1,6 @@
-package com.teamabnormals.better_insomnia.common.potions;
+package com.teamabnormals.betterinsomnia.common.potions;
 
-import com.teamabnormals.better_insomnia.core.BetterInsomnia;
-import com.teamabnormals.better_insomnia.core.util.Reference;
+import com.teamabnormals.betterinsomnia.core.util.Reference;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.potion.PotionInstant;
@@ -24,7 +23,6 @@ public class PotionRestfulness extends PotionInstant {
             EntityPlayerMP playerMP = (EntityPlayerMP) entityLivingBase;
             StatisticsManagerServer statisticsManager = playerMP.getStats();
             statisticsManager.increment(playerMP, StatList.CUSTOM.get(StatList.TIME_SINCE_REST), -(BASE_VALUE * (amplifier + 1)));
-            BetterInsomnia.LOGGER.debug(-(BASE_VALUE + (BASE_VALUE * amplifier)));
         }
     }
 }

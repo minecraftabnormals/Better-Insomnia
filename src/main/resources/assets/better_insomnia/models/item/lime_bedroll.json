@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "betterinsomnia:items/lime_bedroll"
+        "layer0": "better_insomnia:items/lime_bedroll"
     }
 }
